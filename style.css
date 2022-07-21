@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Pacifico&display=swap');
+
+:root {
+  --primary: #101820FF;
+  --secondary: #FEE715FF;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary);
+    color: var(--secondary);
+    min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+  font-family: 'Macondo', cursive;
+}
+
+.flex {
+  display:flex;
+   align-items: center;
+  justify-content: center;
+}
+
+
+.timer-container {
+  margin: 20px;
+}
+
+.timer-container h2 {
+  margin: -50px 20px 20px;
+}
+
+button {
+  background-color: transparent;
+  padding: 10px 15px;
+  margin: 10px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  border: 2px solid #fff;
+  box-shadow: 2px 2px 5px;
+}
+
+button:hover {
+  opacity: .7;
+}
+
+.actions-wrapper span {
+  font-size: 40px;
+    margin: 0 10px;
+  width: 50px;
+}
+
+.clock-container {
+  border: 2px solid #fff;
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+  margin: 20px;
+  width: 400px;
+  box-shadow: 2px 2px 20px;
+}
+
+.clock-container h1 {
+  margin: 0;
+}
+
+.clock-container span {
+  font-size: 60px;
+}
+
+.container {
+  color: #990000;
+  font-size: 4rem;
+  display: block;
+  text-align: center;
+  height: 100px;
+  font-family: 'Pacifico', cursive;
+  margin-bottom: 50px;
+}
